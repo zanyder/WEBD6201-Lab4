@@ -1,7 +1,7 @@
 {
-  "name": "ICE-12",
+  "name": "Lab-4",
   "version": "1.0.0",
-  "description": "ICE 12 for WEBD6201 in the Winter 2022 Semester",
+  "description": "Lab 4 for WEBD6201 in the Winter 2022 Semester",
   "main": "server.js",
   "author": "Alyxander Byfield",
   "license": "MIT",
