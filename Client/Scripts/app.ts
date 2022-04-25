@@ -165,9 +165,11 @@
 
         let subscribeCheckbox = document.getElementById("subscribeCheckbox") as HTMLInputElement;
 
+        $("sendButton").on("click", function(){
+            location.href = "/"
+        });
         sendButton.addEventListener("click", function(event)
-        {
-            //event.preventDefault();
+        {    
 
             let fullName = document.forms[0].fullName.value as string;
             let contactNumber = document.forms[0].contactNumber.value as string;
